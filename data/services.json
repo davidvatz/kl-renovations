@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": "kitchen",
+      "title": "Kitchen Remodels",
+      "description": "Full kitchen transformations — from layout redesign to custom cabinetry, countertops, and appliance installation.",
+      "icon": "kitchen",
+      "details": [
+        "Custom cabinetry design and installation",
+        "Countertop fabrication and installation",
+        "Appliance integration",
+        "Tile backsplash installation",
+        "Lighting upgrades",
+        "Plumbing and electrical coordination"
+      ]
+    },
+    {
+      "id": "bathroom",
+      "title": "Bathroom Renovations",
+      "description": "Complete bathroom overhauls including tile work, fixture upgrades, vanities, and custom shower installations.",
+      "icon": "bathroom",
+      "details": [
+        "Custom tile showers and floors",
+        "Vanity and fixture installation",
+        "Walk-in shower conversions",
+        "Bathtub replacements",
+        "Lighting and ventilation upgrades",
+        "Waterproofing and moisture barriers"
+      ]
+    },
+    {
+      "id": "addition",
+      "title": "Home Additions",
+      "description": "Expand your living space with professionally designed and built additions — from sunrooms to full second-story builds.",
+      "icon": "addition",
+      "details": [
+        "Room additions",
+        "Sunrooms and screened porches",
+        "Garage conversions",
+        "Second-story additions",
+        "In-law suites",
+        "Structural engineering coordination"
+      ]
+    },
+    {
+      "id": "deck",
+      "title": "Decks & Outdoor Spaces",
+      "description": "Custom decks, patios, and outdoor living areas built to last — using quality wood, composite, or Trex materials.",
+      "icon": "deck",
+      "details": [
+        "Custom wood and composite decks",
+        "Covered patios and pergolas",
+        "Outdoor kitchens",
+        "Privacy fencing",
+        "Retaining walls",
+        "Concrete and paver patios"
+      ]
+    },
+    {
+      "id": "flooring",
+      "title": "Flooring",
+      "description": "Professional installation of hardwood, LVP, tile, and carpet — including subfloor prep and refinishing of existing hardwood.",
+      "icon": "flooring",
+      "details": [
+        "Hardwood installation and refinishing",
+        "Luxury vinyl plank (LVP)",
+        "Ceramic and porcelain tile",
+        "Carpet installation",
+        "Subfloor repair and leveling",
+        "Transitions and trim work"
+      ]
+    },
+    {
+      "id": "painting",
+      "title": "Interior & Exterior Painting",
+      "description": "Clean, professional paint work inside and out — including drywall repair, priming, and detailed finish work.",
+      "icon": "painting",
+      "details": [
+        "Interior room painting",
+        "Exterior painting and staining",
+        "Cabinet painting and refinishing",
+        "Drywall repair and texturing",
+        "Trim and millwork painting",
+        "Deck staining and sealing"
+      ]
+    }
+  ]
+}

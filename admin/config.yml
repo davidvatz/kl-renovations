@@ -1,0 +1,81 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+
+  # ── SITE SETTINGS ──────────────────────────────────────────
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Contact & General Info"
+        name: "general"
+        file: "data/settings.json"
+        format: json
+        fields:
+          - { label: "Phone Number", name: "phone", widget: "string", hint: "Displayed sitewide, e.g. (919) 555-0100" }
+          - { label: "Email Address", name: "email", widget: "string" }
+          - { label: "Years Experience", name: "years_experience", widget: "string", hint: "e.g. 10+ or 15" }
+
+  # ── SERVICES ───────────────────────────────────────────────
+  - name: "services_collection"
+    label: "Services"
+    files:
+      - label: "All Services"
+        name: "services_list"
+        file: "data/services.json"
+        format: json
+        fields:
+          - label: "Services"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "ID (no spaces)", name: "id", widget: "string" }
+              - { label: "Service Name", name: "title", widget: "string" }
+              - { label: "Short Description", name: "description", widget: "text" }
+              - label: "Icon"
+                name: "icon"
+                widget: "select"
+                options:
+                  - { label: "Kitchen", value: "kitchen" }
+                  - { label: "Bathroom", value: "bathroom" }
+                  - { label: "Addition / House", value: "addition" }
+                  - { label: "Deck", value: "deck" }
+                  - { label: "Flooring", value: "flooring" }
+                  - { label: "Painting", value: "painting" }
+                  - { label: "Default (wrench)", value: "default" }
+              - label: "Details (bullet points)"
+                name: "details"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+
+  # ── GALLERY ────────────────────────────────────────────────
+  - name: "gallery_collection"
+    label: "Gallery"
+    files:
+      - label: "Project Photos"
+        name: "gallery_photos"
+        file: "data/gallery.json"
+        format: json
+        fields:
+          - label: "Photos"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Project Title", name: "title", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - Kitchen
+                  - Bathroom
+                  - Addition
+                  - "Deck & Outdoor"
+                  - Flooring
+                  - Painting
+                  - Other
+              - { label: "Photo", name: "image", widget: "image", required: false }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }

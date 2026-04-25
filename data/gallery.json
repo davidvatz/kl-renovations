@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "title": "Full Home Renovation — Twilight Exterior",
+      "category": "Other",
+      "image": "/images/uploads/exterior-pickwick-twilight.jpg",
+      "description": "Complete exterior transformation of a split-level home in Raleigh — new siding, windows, entry steps, railings, and landscaping."
+    },
+    {
+      "title": "Kitchen Remodel with Island",
+      "category": "Kitchen",
+      "image": "/images/uploads/kitchen-pickwick-island.jpg",
+      "description": "Full kitchen remodel featuring white shaker cabinets, quartz island countertop, subway tile backsplash, and new LVP flooring."
+    },
+    {
+      "title": "Master Bathroom Renovation",
+      "category": "Bathroom",
+      "image": "/images/uploads/bathroom-spruce-master.jpg",
+      "description": "Master bathroom remodel with double vanity, granite countertops, corner soaking tub, and new LVP flooring."
+    },
+    {
+      "title": "Open-Plan Kitchen & Dining",
+      "category": "Kitchen",
+      "image": "/images/uploads/kitchen-pickwick-dining.jpg",
+      "description": "Open-concept kitchen and dining renovation with custom cabinetry, quartz island, and wide-plank LVP flooring throughout."
+    },
+    {
+      "title": "LVP Flooring Installation",
+      "category": "Flooring",
+      "image": "/images/uploads/flooring-pickwick-living.jpg",
+      "description": "Full living room flooring replacement with light oak luxury vinyl plank — clean, durable, and perfect for families."
+    },
+    {
+      "title": "Bathroom Vanity & Tile",
+      "category": "Bathroom",
+      "image": "/images/uploads/bathroom-pickwick-vanity.jpg",
+      "description": "Bathroom renovation featuring a dark walnut vanity, white quartz countertop, subway tile shower, and oil-rubbed bronze fixtures."
+    },
+    {
+      "title": "Dark Hardwood Flooring",
+      "category": "Flooring",
+      "image": "/images/uploads/flooring-woodbridge-dark.jpg",
+      "description": "Living area hardwood flooring installation with rich dark stain — completely transformed the feel of the home."
+    },
+    {
+      "title": "Open-Plan Living & Kitchen Remodel",
+      "category": "Kitchen",
+      "image": "/images/uploads/interior-pickwick-openplan.jpg",
+      "description": "Full open-plan renovation combining living, dining, and kitchen into one connected space with consistent LVP flooring throughout."
+    },
+    {
+      "title": "Staircase & Flooring Renovation",
+      "category": "Flooring",
+      "image": "/images/uploads/flooring-pickwick-staircase.jpg",
+      "description": "Staircase renovation with new wood treads, custom iron railings, and matching LVP flooring on both levels."
+    },
+    {
+      "title": "Kitchen Pass-Through & Cabinetry",
+      "category": "Kitchen",
+      "image": "/images/uploads/kitchen-spruce-passthrough.jpg",
+      "description": "Kitchen renovation with new white cabinetry, pass-through counter, pendant lighting, and hardwood flooring."
+    },
+    {
+      "title": "Interior Renovation & Flooring",
+      "category": "Flooring",
+      "image": "/images/uploads/flooring-spruce-living.jpg",
+      "description": "Full interior renovation including dark hardwood flooring, fresh paint, updated lighting, and kitchen refresh."
+    },
+    {
+      "title": "Exterior Renovation",
+      "category": "Other",
+      "image": "/images/uploads/exterior-woodbridge.jpg",
+      "description": "Complete exterior renovation — new siding, shutters, fresh paint, and landscaping for a clean curb appeal transformation."
+    }
+  ]
+}

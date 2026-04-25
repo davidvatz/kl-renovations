@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — KL Renovations</title>
+  <meta name="description" content="Browse completed renovation projects by KL Renovations — kitchens, bathrooms, additions, decks, and more across Raleigh, Durham, and Chapel Hill.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="nav-inner">
+      <a href="index.html" class="logo" aria-label="KL Renovations Home">
+        <div class="logo-mark">KL</div>
+        <div class="logo-text">
+          <span class="logo-name">KL Renovations</span>
+          <span class="logo-sub">Raleigh · Durham · Chapel Hill</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="quote.html" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="quote.html">Get a Quote</a></li>
+    </ul>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Our Work</span>
+      <h1>Project Gallery</h1>
+      <p>A look at some of our completed projects — every one of them delivered with the same standard of craftsmanship.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section">
+    <div class="container">
+
+      <!-- FILTER BUTTONS -->
+      <div class="gallery-filters" role="group" aria-label="Filter by project type">
+        <button class="filter-btn active" data-filter="All">All Projects</button>
+        <button class="filter-btn" data-filter="Kitchen">Kitchen</button>
+        <button class="filter-btn" data-filter="Bathroom">Bathroom</button>
+        <button class="filter-btn" data-filter="Addition">Addition</button>
+        <button class="filter-btn" data-filter="Deck &amp; Outdoor">Deck &amp; Outdoor</button>
+        <button class="filter-btn" data-filter="Flooring">Flooring</button>
+        <button class="filter-btn" data-filter="Painting">Painting</button>
+        <button class="filter-btn" data-filter="Other">Other</button>
+      </div>
+
+      <!-- GRID -->
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Populated by main.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project photo viewer">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+      <img id="lightboxImg" src="" alt="">
+      <div class="lightbox-caption">
+        <h3 id="lightboxTitle"></h3>
+        <span id="lightboxCat"></span>
+      </div>
+    </div>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">&#8592;</button>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">&#8594;</button>
+  </div>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-text">
+          <h2>Like What You See?</h2>
+          <p>Let's talk about your project — estimates are always free.</p>
+        </div>
+        <a href="quote.html" class="btn btn-dark">Request a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="logo" aria-label="KL Renovations Home">
+            <div class="logo-mark">KL</div>
+            <div class="logo-text">
+              <span class="logo-name">KL Renovations</span>
+              <span class="logo-sub">Raleigh · Durham · Chapel Hill</span>
+            </div>
+          </a>
+          <p>Quality renovations and remodeling for homeowners and businesses across the Triangle area of North Carolina.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Quick Links</p>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="quote.html">Get a Quote</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Contact Us</p>
+          <div class="footer-contact-item">
+            <span class="footer-contact-label">Phone</span>
+            <span class="footer-contact-value js-phone">(555) 000-0000</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-label">Email</span>
+            <span class="footer-contact-value js-email">info@klrenovations.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-label">Service Area</span>
+            <span class="footer-contact-value">Raleigh · Durham · Chapel Hill</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> KL Renovations. All rights reserved.</p>
+        <p>Licensed &amp; Insured · North Carolina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
